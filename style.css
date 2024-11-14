@@ -1,0 +1,62 @@
+header {
+    height: 100px;
+    background-color: pink;
+    border-radius: 15px;
+    background-image: url(".img/ハート.png");
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+    line-height: 100px;
+    color: blueviolet;
+}
+
+#date {
+    box-sizing: border-box;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    height: 200px;
+    font-size: 16px;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+button {
+    padding: 4px 16px;
+    cursor: pointer;
+}
+
+span {
+    font-size: 14px;
+    margin-right: auto;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 8px;
+}
+.appear {
+    opacity: 1;
+}
+
+#dack {
+    text-align: center;
+}
+img {
+    width: 400px;
+    height: 200px;
+}
