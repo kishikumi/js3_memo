@@ -42,9 +42,9 @@ $(document).ready(function () {
 
         // キーワードが含まれていれば心配コメントに変化
         if (hasKeyword) {
-            $("#image").attr("src", "img/アヒル.png"); // 心配コメント
+            $("#image").attr("src", "アヒル.png"); // 心配コメント
         } else {
-            $("#image").attr("src", "img/最初のアヒル.png");// 元に戻る
+            $("#image").attr("src", "最初のアヒル.png");// 元に戻る
         }
     }
 
